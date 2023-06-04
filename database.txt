@@ -1,0 +1,35 @@
+
+# CREATE TABLE store_status(
+#     store_id varchar(25),
+#     timestamp_utc timestamp,
+#     status_ varchar(10)
+#     );
+
+
+# CREATE TABLE business_hours(
+#     store_id varchar(25),
+#     dayOfWeek int,
+#     start_time_local timestamp,
+#     end_time_local timestamp
+#     );
+
+
+# CREATE TABLE timezone(
+#     store_id varchar(25) unique,
+#     timezone varchar(50)
+#     );
+
+# CREATE TABLE report_status(
+#      report_id varchar(40),
+#      isCompleted boolean
+#      );
+
+# CREATE table final_report(
+# 	store_id varchar(25),
+#     uptime_last_hour int,
+#     uptime_last_day int,
+#     uptime_last_week int,
+#     downtime_last_hour int,
+#     downtime_last_day int,
+#     downtime_last_week int
+# );
